@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 34px;
+  background-color: rgb(215, 246, 250);
+  background-image: url(images/bgg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#game-container {
+  border: 5px solid black;
+  padding: 20px;
+  margin: 10px auto;
+  width: 70%;
+  height: 200%;
+}
+
+#jumbled-word,
+#result {
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+
+#submit-guess {
+  padding: 5px 10px;
+  border: 1px solid #e20a27;
+  border-radius: 5px;
+  cursor: pointer;
+  block-size: 40px;
+  background-color: rgb(229, 245, 93);
+  color: black;
+}
+
+#play-again {
+  cursor: pointer;
+  block-size: 50px;
+  background-color: green;
+  font-weight: bold;
+  color: black;
+}
+
+#exit-game {
+  cursor: pointer;
+  block-size: 50px;
+  background-color: red;
+  font-weight: bold;
+  color: black;
+}
